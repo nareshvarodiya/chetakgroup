@@ -1,0 +1,100 @@
+.selectedanchor{ /*CSS class that gets added to the currently selected anchor link (assuming it's a text link)*/
+background:!important;}
+
+/* ######### Default class for drop down menus ######### */
+
+.anylinkmenu{position: absolute;
+left: 0;top: 0;
+visibility: hidden;
+border: 0px solid white;
+border-bottom-width: 0;
+margin:2px 0 0 0 ;
+font-size:11px;font-family:arial; letter-spacing:1px;
+text-decoration:none; text-transform:uppercase;
+line-height:20px;
+z-index: 1000; /* zIndex should be greater than that of shadow's below 
+background: #fff;*/
+width:180px; /* default width for menu */}
+
+.anylinkmenu ul{margin: 0;padding: 0;list-style-type: none;}
+
+.anylinkmenu ul li a{
+width: 100%;display: block;
+text-indent: 3px;
+border-bottom: 0px solid #7e7e7e;
+padding: 4px 0px 4px 4px;
+text-decoration: none;
+color:#000;
+font-size:11px;font-family:arial; letter-spacing:1px;
+text-decoration:none; text-transform:uppercase;
+text-indent: 5px;
+background:url(img/footer_bg.gif)bottom left repeat-x;-moz-border-radius-topright:15px;
+border-top-right-radius:15px;
+-moz-border-radius-topleft:15px;
+border-top-left-radius:15px;
+-moz-border-radius-bottomleft:15px;
+border-bottom-left-radius:15px;
+-moz-border-radius-bottomright:15px;
+border-bottom-right-radius:15px;
+}
+
+.anylinkmenu a:hover{ /*hover background color*/
+padding: 4px 0px 4px 6px;
+/*background: #c70018;*/
+/*background:#bdda7d;*/
+background:url(img/footer_bg.gif)bottom left repeat-x;
+color:#c00000;
+-moz-border-radius-topright:15px;
+border-top-right-radius:15px;
+-moz-border-radius-topleft:15px;
+border-top-left-radius:15px;
+-moz-border-radius-bottomleft:15px;
+border-bottom-left-radius:15px;
+-moz-border-radius-bottomright:15px;
+border-bottom-right-radius:15px;
+}
+
+/* ######### Alternate multi-column class for drop down menus ######### */
+
+
+.anylinkmenucols{
+position: absolute;
+width: 350px;left: 0;top: 0;
+visibility: hidden;
+border: 1px solid black;
+padding: 10px;
+font-size:13px;font-family:arial; letter-spacing:1px;
+text-decoration:none; text-transform:uppercase;
+z-index: 100; /*zIndex should be greater than that of shadow's below*/
+background: #E9E9E9;
+}
+
+.anylinkmenucols li{
+padding-bottom: 3px;
+}
+
+.anylinkmenucols .column{
+float: left;
+padding: 3px 8px;
+margin-right: 5px;
+background: #E0E0E0;}
+.anylinkmenucols .column ul{margin: 0;padding: 0;list-style-type: none;}
+
+/* ######### class for shadow DIV ######### */
+
+.anylinkshadow{ /*CSS for shadow. Keep this as is */
+margin:0.2px 0px 0px 0px ;
+position: absolute;
+left: 0;top: 0;z-index: 99; /*zIndex for shadow
+background: black;*/
+visibility: hidden;
+/*background:url(images/footer_bg.gif)bottom left repeat-x;
+-moz-border-radius-topright:20px;
+border-top-right-radius:20px;
+-moz-border-radius-topleft:20px;
+border-top-left-radius:20px;
+-moz-border-radius-bottomleft:20px;
+border-bottom-left-radius:20px;
+-moz-border-radius-bottomright:20px;
+border-bottom-right-radius:20px;*/
+}
